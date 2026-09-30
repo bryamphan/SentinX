@@ -1,0 +1,22 @@
+# data
+pandas
+pyarrow
+country_converter
+requests
+# ml
+scikit-learn
+xgboost
+shap
+jupyter
+matplotlib
+# backend
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+pytest
+# tooling
+ruff
+black
+pre-commit
+nbstripout
