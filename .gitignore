@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data (too large for git; regenerate via scripts)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+
+# Model artifacts
+ml/models/*.joblib
+ml/models/*.pkl
+
+# Env / secrets
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+.vscode/
